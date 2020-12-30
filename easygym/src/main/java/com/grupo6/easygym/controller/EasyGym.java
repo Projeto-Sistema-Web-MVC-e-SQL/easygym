@@ -6,8 +6,6 @@ import org.springframework.web.servlet.config.annotation.PathMatchConfigurer;
 
 @Controller
 public class EasyGym {
-
-
 	
 	@RequestMapping("/")
 	public String inicio() {
@@ -15,16 +13,8 @@ public class EasyGym {
 		
 	}
 	
-	@RequestMapping("/clientes")
-	public String pg2() {
-		return "clientes";
-		
-	}
-	@RequestMapping("/ger-clientes")
-	public String pg3() {
-		return "ger-clientes";
-		
-	}
+	
+	
 	@RequestMapping("/funcionarios")
 	public String pg4() {
 		return "funcionarios";
@@ -60,16 +50,7 @@ public class EasyGym {
 		return "financeiro";
 		
 	}
-	@RequestMapping("/edit-cliente")
-	public String pg11() {
-		return "edit-cliente";
-		
-	}
-	@RequestMapping("/vis-cliente")
-	public String pg12() {
-		return "vis-cliente";
-		
-	}
+
 	@RequestMapping("/edit-plano")
 	public String pg13() {
 		return "edit-plano";
